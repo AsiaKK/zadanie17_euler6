@@ -21,7 +21,7 @@ public class SumAndSquaresCalculator {
 
         int sum = 0;
 
-        for (int i = 0 ; i <= number ; i++){
+        for (int i = 1 ; i <= number ; i++){
             sum += i;
         }
         return (int) Math.pow(sum, 2);
